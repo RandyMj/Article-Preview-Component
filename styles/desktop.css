@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: hsl(210, 46%, 95%);
+    justify-content: center;
+    align-items: center;
+}
+/* -------------------- */
+.article {
+    display: flex;  
+    width: 700px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+}
+.article .big-img {
+    width: 40%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+/* ------------------------ */
+.article .text {
+    font-family: 'Manrope', sans-serif;
+    color: hsl(217, 19%, 35%);
+}
+.article .text h2 {
+    height: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 25px 25px 0 25px;
+}
+.article .text p {
+    height: 53px;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0 25px;
+}
+/* ------------------------------ */
+.article .social {
+    display: flex;
+    height: 72px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.article .social .user {
+    display: flex;
+}
+.article .social .user img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.article .social .user .data {
+    padding-left: 15px;
+}
+.article .social .user .data .user-name {
+    font-size: 12px;
+    font-weight: 700;
+}
+.article .social .user .data .date {
+    font-size: 10px;
+    font-weight: 500;
+}
+/* -----SOCIAL SHARE BUTTON------ */
+.article .social .share img {
+    width: 18px;
+    height: 14px;
+}
+.article .social .share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50%;
+}
