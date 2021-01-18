@@ -1,6 +1,7 @@
 const modal = document.getElementById('modal');
 const btn = document.getElementById('share_btn');
-
+const dos = modal.style.display;
+console.log(dos);
 
 btn.addEventListener('click', () => {
     var dis = modal.style.display;

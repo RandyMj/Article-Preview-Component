@@ -77,14 +77,12 @@ body {
     height: 14px;
 }
 .article .social .share {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     width: 38px;
     height: 38px;
     background-color: hsl(210, 46%, 95%);
     border-radius: 50%;
     border: none;
+    outline: none;
 }
 .article .social .share:hover {
     cursor: pointer;
@@ -99,9 +97,9 @@ body {
 /* -------------------------------------- */
 
 .modal-container {
-    position: absolute;
-    left: 950px;
-    top: 380px;
+    position: fixed;
+    left: 60%;
+    top: 51%;
     display: none;
     justify-content: space-around;
     align-items: center;

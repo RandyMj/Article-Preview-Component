@@ -1,0 +1,42 @@
+.article {
+    width: 325px;
+    height: 490px;
+}
+.article .big-img {
+    width: 100%;
+    height: 40%;
+    border-radius: 10px 10px 0 0;
+}
+.article .text {
+    position: absolute;
+    top: 280px;
+    width: 325px;
+    height: 294px;
+}
+.article .text h2 {
+    font-size: 18px;
+}
+.article .text p {
+    font-size: 12px;
+}
+.article .text .social {
+    margin-top: 40px;
+}
+
+.modal-container {
+    position: absolute;
+    left: calc(50% - (325px/2));
+    top: 513px;
+    display: flex;
+    justify-content: flex-start;
+    width: 325px;
+    height: 60px;
+    border-radius: 0 0 10px 10px;
+}
+.modal-container a, span {
+    margin: 10px;
+}
+.article .social .share {
+    z-index: 2;
+    margin-top: 20px;
+}
